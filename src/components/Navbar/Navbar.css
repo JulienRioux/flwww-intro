@@ -1,0 +1,20 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+}
+
+.navbarWrapper{
+	background: #fff;
+	box-shadow: 0 2px 8px #f0f1f2;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+.logo{
+	font-weight: bold;
+	font-size: 1.4rem;
+}

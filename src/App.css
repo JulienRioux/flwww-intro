@@ -1,33 +1,45 @@
-/* .App {
-  text-align: center;
+.mainContent{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.colorImg{
+	width: 100%;
+	border-radius: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.signinBtnDiv{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+label{
+	font-size: .9rem;
+	font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.imageLink{
+	font-size: .8rem;
+	color: #ffffff;
+	margin: -1.2rem .4rem;
+	transition: .2s;
+}
+
+.imageLink:hover{
+	opacity: .7;
+}
+
+.imageLinkDiv{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.modalSubTitle{
+	margin: 0 0 2rem;
+	opacity: .7;
+}
